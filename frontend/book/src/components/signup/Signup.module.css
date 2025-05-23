@@ -1,0 +1,79 @@
+.signupContainer{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	min-height: 100vh;
+	background-image: url('/public/img/image.png');
+	backdrop-filter: blur(8px);
+	background-size: cover;      /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-attachment: fixed;
+}
+
+.set{
+	background: transparent;
+    width: 500px;
+    border: 2px solid white;
+    position: relative;
+
+}
+
+.paddingForm{
+	padding: 20px 40px 20px 40px;
+}
+
+.setMarginBottom{
+	margin-bottom: 1rem;
+}
+
+.fixed{
+	
+    height: 46px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 12px;
+    background: transparent;
+    padding: 10px 41px 10px 13px;
+    color: white;
+}
+
+.setSignUp{
+	    height: 49px;
+    width: 96%;
+    border: 2px solid white;
+    border-radius: 36px;
+    background: transparent;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.logoLock{
+	    color: white;
+    position: relative;
+    left: 196px;
+    bottom: 52px;
+}
+
+.logoMail{
+    color: white;
+    position: relative;
+    left: 196px;
+    bottom: 52px;
+}
+
+.logoPass{
+	    color: white;
+    position: relative;
+    left: 196px;
+    bottom: 52px;
+}
+
+.logoPassword{
+    color: white;
+    position: relative;
+    left: 196px;
+    bottom: 52px;
+}
+

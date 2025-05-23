@@ -1,0 +1,121 @@
+.loginContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-image: url('/public/img/back.avif');
+	backdrop-filter: blur(8px);
+    background-size: cover;      /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-attachment: fixed;
+}
+.forgetPass{
+	margin-left: 4rem;
+}
+
+.wrapper{
+	background: transparent;
+	width: 420px;
+	border: 2px solid white ;
+	backdrop-filter: blur(8px);
+	position: relative;
+	color: white;
+}
+
+@media (max-width : 500px){
+	.wrapper{
+		width: 343px;
+	}
+}
+
+.wrapper .align{
+	text-align: center;
+}
+
+.wrapper .alignItems{
+	align-items: center;
+}
+
+.pad{
+	padding: 3rem;
+	text-align: center;
+	height: 460px;
+}
+
+.marginLogin{
+	margin-bottom: 2rem;
+}
+
+.setInput{
+	width: 100%;
+	margin-bottom: 2rem;
+	border-radius: 40px;
+	height: 45px;
+	background: transparent;
+    border: 2px solid white;
+    padding: 20px 45px 20px 20px;
+
+}
+
+.setMe{
+    display: flex;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.setSubmit{
+	    width: 45%;
+    height: 46px;
+    border-radius: 32px;
+        border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+
+.logoUser{
+	color: white;
+    position: absolute;
+    right: 62px;
+    top: 141px;
+}
+
+.logoLock{
+	color: white;
+    position: absolute;
+    right: 62px;
+    top: 218px;
+}
+
+.accountSet{
+	color: white;
+	position: relative;
+    top: 20px;
+}
+
+input{
+	color: white;
+}
+
+::-webkit-input-placeholder{
+	color: white;
+}
+
+.remember{
+	font-size: 17px;
+    width: 37%;
+    margin-top: 10px;
+    margin-right: 36px;
+}
+
+ input[type="checkbox"] {
+	width: 20px;
+}
+
+@media (max-width :  560px) {
+	.remember{
+	font-size: 15px;
+    width: 90%;
+    margin-top: 12px;
+	}
+}
